@@ -5,7 +5,7 @@ A login system using Node's bcrypt library
 
 ```npm install```
 
-```Ensure Mongod is running```
+*Ensure Mongod is running then proceed*
 
 On MacOS or Linux, run the app with this command:
 
