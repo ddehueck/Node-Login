@@ -19,7 +19,7 @@ Or use a a tool like nodemon: ```npm install -g nodemon```
 
 ##Screenshots
 
-[Index page](http://i.imgur.com/FzvTJA2.png)
-[User page](http://i.imgur.com/piLQvuI.png)
-[Register page](http://i.imgur.com/chUuIJP.png)
-[Login page](http://i.imgur.com/eIvWPzG.png)
+![Index page](http://i.imgur.com/FzvTJA2.png)
+![User page](http://i.imgur.com/piLQvuI.png)
+![Register page](http://i.imgur.com/chUuIJP.png)
+![Login page](http://i.imgur.com/eIvWPzG.png)
