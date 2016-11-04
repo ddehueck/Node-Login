@@ -15,4 +15,4 @@ On Windows, use this command:
 
 ```> set DEBUG=myapp:* & npm start```
 
-Or use a a tool like nodemon ```(npm install -g nodemon)```
+Or use a a tool like nodemon: ```npm install -g nodemon```
