@@ -1,0 +1,8 @@
+extends ../layout
+
+block content
+	h1= title
+	.account-info
+		p Username: #{username}
+		p Email: #{email}
+		a(href="/logout") Logout

@@ -1,0 +1,15 @@
+extends layout
+
+block content
+	h1= title
+	.login-form
+		form(action="http://localhost:3000/login", method="post")
+			input(type='text', name='name', placeholder='Email or Username', required)
+			input(type='password', name='password', placeholder='Password', required)
+			label(for='remember') Remember me
+			input(type='checkbox' name='remember', id='remember') 
+			input(type='submit', value='Login')
+	if error
+		p(style="color:red") Password or Email was incorrect.
+		
+	a(href="http://localhost:3000/register") Don't have an account? Register Here
