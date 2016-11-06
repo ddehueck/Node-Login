@@ -24,6 +24,10 @@ Or use a a tool like nodemon: ```npm install -g nodemon```
 ![Register page](http://i.imgur.com/chUuIJP.png)
 ![Login page](http://i.imgur.com/eIvWPzG.png)
 
+##Contributing
+
+Pull requests and stars are always welcome. For bugs and feature requests, [create an issue](https://github.com/essofluffy/Node-Login/issues).
+
 ##License
 
 Copyright © 2016 Licensed under the MIT license.
