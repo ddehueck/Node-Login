@@ -23,3 +23,7 @@ Or use a a tool like nodemon: ```npm install -g nodemon```
 ![User page](http://i.imgur.com/piLQvuI.png)
 ![Register page](http://i.imgur.com/chUuIJP.png)
 ![Login page](http://i.imgur.com/eIvWPzG.png)
+
+##License
+
+Copyright © 2016 Licensed under the MIT license.
