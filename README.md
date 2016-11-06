@@ -1,5 +1,5 @@
 # Node-Login
-A login system using Node's bcrypt library
+A login system using Node's crypto library
 
 ## Installation
 
