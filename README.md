@@ -19,10 +19,10 @@ Or use a a tool like nodemon: ```npm install -g nodemon```
 
 ##Screenshots
 
-<img src="http://i.imgur.com/FzvTJA2.png" alt="Index Page" width="40%" height="40%">
-<img src="http://i.imgur.com/piLQvuI.png" alt="User Page" width="40%" height="40%">
-<img src="http://i.imgur.com/chUuIJP.png" alt="Register Page" width="40%" height="40%">
-<img src="http://i.imgur.com/eIvWPzG.png" alt="Login Page" width="40%" height="40%">
+<img src="http://i.imgur.com/FzvTJA2.png" alt="Index Page" width="40%">
+<img src="http://i.imgur.com/piLQvuI.png" alt="User Page" width="40%">
+<img src="http://i.imgur.com/chUuIJP.png" alt="Register Page" width="40%">
+<img src="http://i.imgur.com/eIvWPzG.png" alt="Login Page" width="40%">
 
 ##Contributing
 
