@@ -33,7 +33,7 @@ router.get('/register', function(req, res, next) {
 
 router.post('/register', function(req, res, next) {
 	var reqBody = req.body;
-	var username = reqBody.username.toLowerCase();
+	var username = reqBody.username.toLowerCase(); //Removes case sensitivity
 	var email = reqBody.email;
 	var password = reqBody.password;
 	var rememberMe = reqBody.remember;
@@ -41,9 +41,9 @@ router.post('/register', function(req, res, next) {
 	//Make sure email or username isn't used already
 	User.find({ $or: [ { 'username': username }, { 'email': email } ] }, function(err, userArray) {
 	  	if (err) return handleError(err);
-	  	//Email or username not in use - Proceed
+	  	//Email and username not in use - Proceed
 	  	if (userArray.length == 0) {
-	  		//Generate salt.
+	  		//Generate salt
 	  		var salt = crypto.randomBytes(64).toString('base64');
 
 	  		crypto.pbkdf2(password, salt, 10000, 64, 'sha512', function(err, key){
@@ -108,7 +108,7 @@ router.get('/login', function(req, res, next) {
 
 router.post('/login', function(req, res, next) {
 	var reqBody = req.body;
-		var name = reqBody.name.toLowerCase(); //Remove case sensitivity
+		var name = reqBody.name.toLowerCase(); //Removes case sensitivity
 		var password = reqBody.password;
 		var rememberMe = reqBody.remember;
 
