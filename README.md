@@ -1,7 +1,7 @@
 # Node-Login
 A login system using Node's bcrypt library
 
-## Installation:
+## Installation
 
 ```npm install```
 
@@ -16,6 +16,13 @@ On Windows, use this command:
 ```> set DEBUG=myapp:* & npm start```
 
 Or use a a tool like nodemon: ```npm install -g nodemon```
+
+##Dependencies
+
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
 
 ##Screenshots
 
