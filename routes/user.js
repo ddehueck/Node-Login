@@ -9,8 +9,6 @@ router.get('/', function(req, res, next) {
 		//Get user info
 		User.findOne({ '_id': req.session._uid }, function (err, user) {
 		  	if (err) return handleError(err);
-		  	console.log(user)
-
 			res.render('user/user', { 
 		 		title: 'User Page',
 		 		username: user.username,
