@@ -19,7 +19,7 @@ Or use a a tool like nodemon: ```npm install -g nodemon```
 
 ##Screenshots
 
-![Index page](http://i.imgur.com/FzvTJA2.png)
+<img src="http://i.imgur.com/FzvTJA2.png" alt="Index Page" width="50px" height="50px">
 ![User page](http://i.imgur.com/piLQvuI.png)
 ![Register page](http://i.imgur.com/chUuIJP.png)
 ![Login page](http://i.imgur.com/eIvWPzG.png)
